@@ -1,0 +1,142 @@
+body {
+    font-family: 'Alegreya Sans SC' !important;
+    background-color: #88304E !important;
+    color: #F6F6F6 !important;
+    text-align: center !important;
+    /* background-color: #F67280 !important; */
+    /* background-color: #E23E57 !important; */
+    /* background-color: #53354A !important; */
+}
+
+.navigation-bar {
+    background-color: #1B262C;
+}
+
+.navbar {
+    padding: 0px 15px 0px 15px;
+}
+
+.navbar-toggler {
+    border: 1px solid #F6F6F6 !important;
+}
+
+
+.dropdown-menu {
+    margin-bottom: 20px !important;
+    background-color: #f7e6ec !important;
+}
+
+.heading {
+    font-size: 3.5rem;
+}
+
+.projects {
+    width: 90%;
+    color: #1B262C;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    opacity: 0.9;
+}
+
+.cards {
+    display: flex;
+    overflow: auto;
+    align-items: stretch !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    scroll-behavior: auto !important;
+    padding-bottom: 10px !important;
+}
+
+
+.individual-card {
+    background-color: white;
+    height: 28rem;
+    width: 18rem !important;
+    border: #1B262C !important;
+    border-radius: 5px 5px 5px 5px !important;
+    margin-right: auto !important;
+    margin-top: 50px;
+}
+
+.individual-card:hover {
+    transform: scale(1.03);
+}
+
+.card-top {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #1B262C;
+    color: #F6F6F6;
+    margin: 0% !important;
+    padding: 40px 40px 10px 40px;
+}
+
+.card-image {
+
+    border-radius: 5px 5px 5px 5px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.card-bottom {
+    margin-top: 10px;
+}
+
+.card-text {
+    text-align: justify !important;
+    padding: 0px 10px 0px 10px !important;
+}
+
+@media (max-width:500px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .cards {
+        margin-left: 20px !important;
+    }
+}
+
+@media (min-width:500px) and (max-width:1000px) {
+    .projects {
+        width: 100%;
+        display: flex !important;
+    }
+
+    .cards {
+        display: inline !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .individual-card {
+        display: inline-block !important;
+        margin-left: auto !important;
+        margin-top: 20px;
+    }
+}
+
+/* Color Pallete 
+Pallete 1
+#4cdcc5
+#30afbc
+
+Pallete 2
+#42495b
+#0d82df
+
+pallete 3
+#88304E
+#FFE2E2
+
+Pallete 4
+#88304E
+#F6F6F6
+*/
