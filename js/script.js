@@ -5,3 +5,4 @@ $(".navbar-toggler").on("click", function () {
         $("#menu").attr("src", "images/icons/menu.png");
     }
 })
+

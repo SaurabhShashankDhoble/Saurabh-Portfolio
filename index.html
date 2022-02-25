@@ -30,8 +30,8 @@
 <body>
     <section id="navigation-bar">
         <div class="navigation-bar">
-            <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="#">Saurabh Dhoble</a>
+            <nav class="navbar  navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="/">Saurabh Dhoble</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -43,7 +43,20 @@
                             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">My Projects</a>
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certificates">Certificates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="files/Saurabh Dhoble Resume.pdf" target="_blank">Download
+                                Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">My Projects</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -91,14 +104,93 @@
             </nav>
         </div>
     </section>
-    <section id="info">
-        <h1 class="heading">Saurabh Dhoble</h1>
+
+
+
+    <section id="info" class="info-section" style="padding-right: 4px; padding-left: 5px;">
+        <div class="info">
+            <div class="row" style="margin-right: 10px;">
+                <div class="col-xs-12 col-lg-6">
+                    <h5 class="quote-heading quote1">You do not just wake up and become the butterfly <img
+                            src="images/icons/butterfly.png" height="30px" alt="butterfly"></h5>
+                    <p class="quote-para quote2">Growth is the process</p>
+                    <h5 class="quote3 start-text">Hello.. <br>&nbsp I'm Saurabh dhoble</h5>
+                    <p class="quote-para quote4">Welcome to my personal portfolio</p>
+                    <div class="quote-5">
+                        <p class="quote5">
+                            <span class="escr eat">Eat</span>
+                            <span class="escr sleep">Sleep</span>
+                            <span class="escr code">Code</span>
+                            <span class="repeat">Repeat</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-6">
+                    <img src="images/avatar.png" alt="avatar" class="avatar">
+                    <br>
+                    <br>
+                    <a href="files/Saurabh Dhoble Resume.pdf" alt="Saurabh Dhoble Resume" class="btn btn-light"
+                        download>Download My
+                        Resume</a>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="projects">
+
+
+
+
+    <section id="certificates" class="certificates-section new-section">
+        <h2 class="heading">Certification</h2>
+        <div class="certificates">
+            <div class="row certificate-row">
+                <div class="col col-xs-6 col-lg-3">
+                    <a href="images/certificates/ibm.png" target="_blank"><img class="certificate-images"
+                            src="images/certificates/ibm.png" alt="ibm certificate"></a>
+                </div>
+                <div class="col col-xs-6 col-lg-3">
+                    <a href="images/certificates/Infosys.png" target="_blank"><img class="certificate-images"
+                            src="images/certificates/Infosys.png" alt="infosys certificate"></a>
+                </div>
+                <div class="col col-xs-6 col-lg-3">
+                    <a href="images/certificates/tcs.png" target="_blank"><img class="certificate-images"
+                            src="images/certificates/tcs.png" alt="tcs certificate"></a>
+                </div>
+                <div class="col col-xs-6 col-lg-3">
+                    <a href="images/certificates/michigan.png" target="_blank"><img class="certificate-images"
+                            src="images/certificates/michigan.png" alt="michigan certificate"></a>
+                </div>
+            </div>
+            <div class="row certificate-row">
+                <div class="col col-xs-6 col-lg-3">
+                    <a href="images/certificates/nptel.png" target="_blank"><img class="certificate-images"
+                            src="images/certificates/nptel.png" alt="nptel certificate"></a>
+                </div>
+                <div class="col col-xs-6 col-lg-3">
+                    <a href="images/certificates/nptel-2.png" target="_blank"><img class="certificate-images"
+                            src="images/certificates/nptel-2.png" alt="nptel-2 certificate"></a>
+                </div>
+                <div class="col col-xs-6 col-lg-3">
+                    <a href="images/certificates/sparkfoundation.png" target="_blank"><img class="certificate-images"
+                            src="images/certificates/sparkfoundation.png" alt="spark certificate"></a>
+                </div>
+                <div class="col col-xs-6 col-lg-3">
+                    <a href="images/certificates/Udemy-js.png" target="_blank"><img class="certificate-images"
+                            src="images/certificates/Udemy-js.png" alt="udemyjs certificate"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <hr>
+
+    <section id="projects" class="new-section" style="width: 100%;">
         <h2 class="heading">My Projects</h2>
         <div class="projects">
             <div class="cards">
-                <div class="col col-xs-8 col-md-3">
+                <div class="col col-xs-8 col-md-3" style="margin-right: 5%;">
                     <div class="individual-card">
                         <div class="card-top">
                             <img src="images/cornerkart.png" class="card-image" alt="cornerkart" style="width: 200px;">
@@ -119,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-xs-8 col-md-3">
+                <div class="col col-xs-8 col-md-3" style="margin-right: 5%;">
                     <div class="individual-card">
                         <div class="card-top">
                             <img src="images/BANKMANAGEMENT.png" class="card-image" alt="BANKMANAGEMENT"
@@ -137,24 +229,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-xs-8 col-md-3">
-                    <div class="individual-card">
-                        <div class="card-top">
-                            <img src="images/kartex.png" class="card-image" alt="cornerkart" style="width: 200px;">
-                            <h5 class="card-title">Kartex MarketPlace</h5>
-                            <p style="font-weight: 500;">Fall in ❤️ with shopping</p>
-                        </div>
-                        <div class="card-bottom">
-                            <p class="card-text">Kartex Marketplace is a platform that allows brick and motor market to
-                                sell their products over the internet rather than at a fixed location where shop is
-                                located.</p>
-
-                            Link: &nbsp
-                            <a target="_blank" href="https://kartex.in">kartex.in</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-xs-8 col-md-3">
+                <div class="col col-xs-8 col-md-3" style="margin-right: 5%;">
                     <div class="individual-card">
                         <div class="card-top">
                             <img src="images/kartex.png" class="card-image" alt="cornerkart" style="width: 200px;">
