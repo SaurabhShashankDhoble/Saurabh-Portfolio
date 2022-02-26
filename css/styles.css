@@ -11,11 +11,19 @@ body {
     /* background-color: #53354A !important; */
 }
 
-#info {
-    background-image: radial-gradient(circle, #131f22 25%, #212529);
-    padding-top: 7rem;
-    padding-bottom: 2.2rem;
+.heading {
+    font-size: 4rem;
+    color: #232b3a;
 }
+
+.new-section {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/********************************************************* Navigation Bar ********************************************************/
+
 
 .navigation-bar {
     background-color: #212529;
@@ -35,84 +43,14 @@ body {
     background-color: #f0f8ff !important;
 }
 
-.heading {
-    font-size: 4rem;
-    color: #232b3a;
-}
 
-.projects {
-    width: 90%;
-    color: #1B262C;
-    margin-left: 10% !important;
-    margin-right: auto !important;
-    opacity: 0.9;
-}
-
-.cards {
-    display: flex;
-    overflow: auto;
-    align-items: stretch !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important;
-    scroll-behavior: auto !important;
-    padding-bottom: 10px !important;
-    padding-left: 5rem;
-}
+/***************************************************** Info - Landing Page ******************************************************/
 
 
-.individual-card {
-    background-color: white;
-    height: 28rem;
-    width: 18rem !important;
-    border: #1B262C !important;
-    border-radius: 5px 5px 5px 5px !important;
-    margin-right: auto !important;
-    margin-top: 50px;
-}
-
-.individual-card:hover {
-    transform: scale(1.04);
-}
-
-.cards::-webkit-scrollbar {
-    display: none;
-}
-
-.cards {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.card-top {
-    border-radius: 5px 5px 0px 0px;
-    background-color: #1B262C;
-    color: #F6F6F6;
-    margin: 0% !important;
-    padding: 40px 40px 10px 40px;
-}
-
-.card-image {
-    border-radius: 5px 5px 5px 5px;
-}
-
-.card-title {
-    margin-top: 10px;
-}
-
-.card-bottom {
-    margin-top: 10px;
-}
-
-.card-text {
-    text-align: justify !important;
-    padding: 0px 10px 0px 10px !important;
-}
-
-.new-section {
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
+#info {
+    background-image: radial-gradient(circle, #131f22 25%, #212529);
+    padding-top: 7rem;
+    padding-bottom: 2.2rem;
 }
 
 .info {
@@ -210,6 +148,82 @@ body {
     border-radius: 50%;
 }
 
+
+/******************************************************* My Projects Page ******************************************************/
+
+.projects {
+    width: 90%;
+    color: #1B262C;
+    margin-left: 10% !important;
+    margin-right: auto !important;
+    opacity: 0.9;
+}
+
+.cards {
+    display: flex;
+    overflow: auto;
+    align-items: stretch !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    scroll-behavior: auto !important;
+    padding-bottom: 10px !important;
+    padding-left: 5rem;
+}
+
+
+.individual-card {
+    background-color: white;
+    height: 28rem;
+    width: 18rem !important;
+    border: #1B262C !important;
+    border-radius: 5px 5px 5px 5px !important;
+    margin-right: auto !important;
+    margin-top: 50px;
+}
+
+.individual-card:hover {
+    transform: scale(1.04);
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+.cards {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.card-top {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #1B262C;
+    color: #F6F6F6;
+    margin: 0% !important;
+    padding: 40px 40px 10px 40px;
+}
+
+.card-image {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.card-bottom {
+    margin-top: 10px;
+}
+
+.card-text {
+    text-align: justify !important;
+    padding: 0px 10px 0px 10px !important;
+}
+
+
+/******************************************************* My Certificates Page ****************************************************/
+
+
 .certificates {
     width: 90% !important;
     margin-left: auto !important;
@@ -232,6 +246,10 @@ body {
     background-color: #131f22;
     opacity: 0.5 !important;
 }
+
+
+/********************************************************* About Me Page *********************************************************/
+
 
 .about {
     width: 85%;
@@ -263,12 +281,12 @@ body {
     box-shadow: 2px 10px 10px 5px #5e6777;
 }
 
+/********************************************************* My Skills Page ********************************************************/
 
 
 
 
-
-/********************************************************* Media Query ****************************************************/
+/*********************************************************** Media Query *********************************************************/
 
 
 @media (max-width:500px) {
@@ -409,7 +427,7 @@ body {
 }
 
 
-/**************************************************** Key Frames **********************************************************/
+/********************************************************* Key Frames ************************************************************/
 
 
 @keyframes shine {
