@@ -50,7 +50,7 @@ body {
 #info {
     background-image: radial-gradient(circle, #131f22 25%, #212529);
     padding-top: 7rem;
-    padding-bottom: 2.2rem;
+    padding-bottom: 6.5rem;
 }
 
 .info {
@@ -142,6 +142,7 @@ body {
 }
 
 .avatar {
+    transform: translateY(-50px);
     object-fit: contain;
     height: 350px;
     background-color: #D9D7F1;
