@@ -197,6 +197,11 @@ body {
     box-shadow: 2px 10px 10px 5px #5e6777;
 }
 
+.profileimage:hover {
+    animation-name: zoom;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+}
 
 /******************************************************* My Certificates Page ****************************************************/
 
@@ -822,7 +827,13 @@ body {
     }
 }
 
+@keyframes zoom {
+    0% {}
 
+    100% {
+        transform: scale(1.05);
+    }
+}
 
 
 
