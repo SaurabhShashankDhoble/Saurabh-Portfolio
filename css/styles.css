@@ -22,6 +22,12 @@ body {
     margin-right: auto;
 }
 
+.swipe {
+    color: #F6F6F6;
+    font-weight: 400;
+    display: none;
+}
+
 /********************************************************* Navigation Bar ********************************************************/
 
 
@@ -356,7 +362,7 @@ body {
 
 .footer {
     width: 100%;
-    height: 300px;
+    height: 340px;
     background-image: radial-gradient(circle, #131f22 25%, #212529);
     text-align: center !important;
 }
@@ -380,18 +386,86 @@ body {
 }
 
 .links-icon {
-    height: 30px;
+    height: 55px;
+}
+
+.links-row {
+    margin-top: 15px;
 }
 
 .footer-copyright {
     margin-top: 80px;
 }
 
+.links-icon:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 50%;
+}
+
 
 /*********************************************************** Media Query *********************************************************/
 
+@media (max-width:350px) {
+    .circle {
+        width: 80px !important;
+        height: 80px !important;
+        font-size: 0.8rem !important;
+    }
+
+    .footer {
+        height: 530px !important;
+    }
+
+    .footer-copyright {
+        margin-top: 20px !important;
+    }
+
+    .footer-para {
+        font-size: 0.9rem !important;
+    }
+
+    .links-icon {
+        height: 25px !important;
+    }
+
+    .swipe {
+        display: block;
+    }
+}
+
+@media (min-width:350px) and (max-width:500px) {
+    .circle {
+        width: 90px !important;
+        height: 90px !important;
+        font-size: 0.95rem !important;
+    }
+
+    .footer {
+        height: 545px !important;
+    }
+
+    .footer-copyright {
+        margin-top: 20px !important;
+    }
+
+    .footer-para {
+        font-size: 1.05rem !important;
+    }
+
+    .links-icon {
+        height: 35px !important;
+    }
+
+    .swipe {
+        display: block;
+    }
+}
 
 @media (max-width:500px) {
+    .swipe {
+        display: block;
+    }
+
     .heading {
         font-size: 2.5rem;
     }
@@ -518,7 +592,7 @@ body {
     }
 
     .footer {
-        height: 525px;
+        height: 560px;
     }
 
     .footer-row {
@@ -526,14 +600,14 @@ body {
     }
 
     .links-icon {
-        height: 30px;
+        height: 40px;
     }
 
     .links-row {
         width: 80%;
         margin-left: auto !important;
         margin-right: auto !important;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .footer-heading {
@@ -541,12 +615,20 @@ body {
     }
 
     .footer-copyright {
-        margin-top: 54px;
+        margin-top: 50px;
     }
 }
 
 
 @media (min-width:500px) and (max-width:1000px) {
+    .swipe {
+        display: block;
+    }
+
+    .swipe2 {
+        display: none !important;
+    }
+
     .projects {
         width: 100%;
         display: flex !important;
@@ -612,6 +694,19 @@ body {
 
     .skills-name {
         margin-top: 2px !important;
+    }
+
+    .footer {
+        height: 310px;
+    }
+
+    .footer-para {
+        font-size: 1rem !important;
+    }
+
+    .footer-copyright {
+        margin-top: 40px;
+        font-size: 1rem;
     }
 
 }
