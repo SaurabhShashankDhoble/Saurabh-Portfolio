@@ -387,7 +387,7 @@ body {
 
 .footer {
     width: 100%;
-    height: 340px;
+    height: 422px;
     background-image: radial-gradient(circle, #131f22 25%, #212529);
     text-align: center !important;
 }
@@ -395,7 +395,7 @@ body {
 .footer-row {
     margin-left: auto !important;
     margin-right: auto !important;
-    padding-top: 80px !important;
+    padding-top: 50px !important;
 }
 
 .footer-heading {
@@ -419,7 +419,7 @@ body {
 }
 
 .footer-copyright {
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 .links-icon:hover {
@@ -438,7 +438,7 @@ body {
     }
 
     .footer {
-        height: 530px !important;
+        height: 660px !important;
     }
 
     .footer-copyright {
@@ -466,7 +466,7 @@ body {
     }
 
     .footer {
-        height: 545px !important;
+        height: 625px !important;
     }
 
     .footer-copyright {
@@ -617,7 +617,7 @@ body {
     }
 
     .footer {
-        height: 560px;
+        height: 635px;
     }
 
     .footer-row {
@@ -722,7 +722,7 @@ body {
     }
 
     .footer {
-        height: 310px;
+        height: 395px;
     }
 
     .footer-para {
@@ -730,7 +730,7 @@ body {
     }
 
     .footer-copyright {
-        margin-top: 40px;
+        margin-top: 70px;
         font-size: 1rem;
     }
 
