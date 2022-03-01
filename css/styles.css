@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
 body {
     font-family: 'Alegreya Sans SC' !important;
     /* background-color: #88304E !important; */
