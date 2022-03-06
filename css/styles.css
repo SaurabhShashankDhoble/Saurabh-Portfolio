@@ -26,6 +26,10 @@ body {
     margin-right: auto;
 }
 
+.hidden-class-d {
+    display: none !important;
+}
+
 .swipe {
     color: #F6F6F6;
     font-weight: 400;
@@ -183,6 +187,11 @@ body {
     border-radius: 50%;
 }
 
+.explore {
+    width: 60%;
+    text-align: center !important;
+}
+
 
 /********************************************************* About Me Page *********************************************************/
 
@@ -285,6 +294,7 @@ body {
     color: #000;
     font-size: 1.15rem;
     font-weight: 400 !important;
+
 }
 
 .circle1 {
@@ -292,7 +302,7 @@ body {
 }
 
 .circle2 {
-    border: 3.5px solid #ecc30df3 !important;
+    border: 3.5px solid #ffd930b6 !important;
 }
 
 .circle3 {
@@ -456,6 +466,10 @@ body {
         display: none;
     }
 
+    .hidden-class-d {
+        display: inline-block !important;
+    }
+
     .toggle-img {
         transform: translateY(15px);
         float: right !important;
@@ -502,6 +516,10 @@ body {
         display: none;
     }
 
+    .hidden-class-d {
+        display: inline-block !important;
+    }
+
     .toggle-img {
         transform: translateY(15px);
         float: right !important;
@@ -545,7 +563,11 @@ body {
 
 @media (max-width:500px) {
     .hidden-class-m {
-        display: none;
+        display: none !important;
+    }
+
+    .hidden-class-d {
+        display: inline-block !important;
     }
 
     .toggle-img {
@@ -726,6 +748,10 @@ body {
 @media (min-width:500px) and (max-width:1000px) {
     .hidden-class-m {
         display: none;
+    }
+
+    .hidden-class-d {
+        display: inline-block !important;
     }
 
     .toggle-img {
