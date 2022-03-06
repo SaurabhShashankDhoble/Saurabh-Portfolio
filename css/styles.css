@@ -74,13 +74,13 @@ body {
 }
 
 .toggle-img {
-    transform: translate(-75px, 10px);
+    transform: translate(-95px, 20px);
     float: right !important;
     margin-right: 50px !important;
 }
 
 .toggle-para {
-    transform: translate(0px, 10px);
+    transform: translate(0px, 0px);
     margin-top: 50px;
     color: #090910;
     float: right;
@@ -464,7 +464,7 @@ body {
     }
 
     .toggle-para {
-        transform: translate(70px, 15px);
+        transform: translate(60px, -10px);
         color: #090910;
         float: right;
         margin-right: 0px !important;
@@ -510,7 +510,7 @@ body {
     }
 
     .toggle-para {
-        transform: translate(70px, 15px);
+        transform: translate(60px, -10px);
         color: #090910;
         float: right;
         margin-right: 0px !important;
@@ -556,7 +556,7 @@ body {
     }
 
     .toggle-para {
-        transform: translate(70px, 15px);
+        transform: translate(60px, -10px);
         color: #090910;
         float: right;
         margin-right: 0px !important;
@@ -736,7 +736,7 @@ body {
     }
 
     .toggle-para {
-        transform: translate(70px, 15px);
+        transform: translate(60px, -10px);
         color: #090910;
         float: right;
         margin-right: 0px !important;
