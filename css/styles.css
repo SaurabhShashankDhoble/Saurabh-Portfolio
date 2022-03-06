@@ -32,6 +32,8 @@ body {
     display: none;
 }
 
+
+
 /********************************************************* Navigation Bar ********************************************************/
 
 
@@ -69,6 +71,20 @@ body {
     background-image: radial-gradient(circle, #131f22 25%, #212529);
     padding-top: 7rem;
     padding-bottom: 6.5rem;
+}
+
+.toggle-img {
+    transform: translate(-75px, 10px);
+    float: right !important;
+    margin-right: 50px !important;
+}
+
+.toggle-para {
+    transform: translate(0px, 10px);
+    margin-top: 50px;
+    color: #090910;
+    float: right;
+    margin-right: 0px !important;
 }
 
 .info {
@@ -175,6 +191,7 @@ body {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px !important;
 }
 
 .about-para {
@@ -186,7 +203,7 @@ body {
     color: #090910;
     font-size: 1.5rem;
     line-height: 3.3rem;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 3.5rem;
     margin-bottom: 6rem;
 }
@@ -224,13 +241,12 @@ body {
 .certificate-images {
     border-radius: 7px;
     width: 300px;
-    box-shadow: 1px 1px 10px 0px #747779b7;
 }
 
 .certificate-images:hover {
-    transform: scale(1.04);
-    background-color: #131f22;
-    opacity: 0.5 !important;
+    animation-name: zoom;
+    animation-timing-function: ease;
+    animation-duration: 1.3s;
 }
 
 
@@ -341,8 +357,8 @@ body {
     background-color: white;
     height: 28rem;
     width: 18rem !important;
-    border: #1B262C !important;
-    border-radius: 5px 5px 5px 5px !important;
+    border: 1px #1B262C !important;
+    border-radius: 7px 7px 7px 7px !important;
     margin-right: auto !important;
     margin-top: 50px;
 }
@@ -435,6 +451,25 @@ body {
 /*********************************************************** Media Query *********************************************************/
 
 @media (max-width:350px) {
+
+    .hidden-class-m {
+        display: none;
+    }
+
+    .toggle-img {
+        transform: translateY(15px);
+        float: right !important;
+        margin-right: 50px !important;
+        color: black;
+    }
+
+    .toggle-para {
+        transform: translate(70px, 15px);
+        color: #090910;
+        float: right;
+        margin-right: 0px !important;
+    }
+
     .circle {
         width: 80px !important;
         height: 80px !important;
@@ -463,6 +498,24 @@ body {
 }
 
 @media (min-width:350px) and (max-width:370px) {
+    .hidden-class-m {
+        display: none;
+    }
+
+    .toggle-img {
+        transform: translateY(15px);
+        float: right !important;
+        margin-right: 50px !important;
+        color: black;
+    }
+
+    .toggle-para {
+        transform: translate(70px, 15px);
+        color: #090910;
+        float: right;
+        margin-right: 0px !important;
+    }
+
     .circle {
         width: 90px !important;
         height: 90px !important;
@@ -491,6 +544,24 @@ body {
 }
 
 @media (max-width:500px) {
+    .hidden-class-m {
+        display: none;
+    }
+
+    .toggle-img {
+        transform: translateY(15px);
+        float: right !important;
+        margin-right: 50px !important;
+        color: black;
+    }
+
+    .toggle-para {
+        transform: translate(70px, 15px);
+        color: #090910;
+        float: right;
+        margin-right: 0px !important;
+    }
+
     .swipe {
         display: block;
     }
@@ -566,6 +637,8 @@ body {
         overflow-x: auto !important;
         scroll-behavior: auto !important;
         padding-bottom: 20px;
+        padding-top: 10px !important;
+        margin-top: 40px;
     }
 
     .certificate-row::-webkit-scrollbar {
@@ -594,7 +667,7 @@ body {
         color: #090910;
         font-size: 1.25rem;
         line-height: 1.8rem;
-        font-weight: 300;
+        font-weight: 300 !important;
     }
 
     .circle {
@@ -646,10 +719,29 @@ body {
     .footer-copyright {
         margin-top: 50px;
     }
+
 }
 
 
 @media (min-width:500px) and (max-width:1000px) {
+    .hidden-class-m {
+        display: none;
+    }
+
+    .toggle-img {
+        transform: translateY(15px);
+        float: right !important;
+        margin-right: 50px !important;
+        color: black;
+    }
+
+    .toggle-para {
+        transform: translate(70px, 15px);
+        color: #090910;
+        float: right;
+        margin-right: 0px !important;
+    }
+
     .swipe {
         display: block;
     }
@@ -835,7 +927,7 @@ body {
     0% {}
 
     100% {
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 }
 
